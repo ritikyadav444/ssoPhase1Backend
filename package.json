@@ -1,0 +1,35 @@
+{
+    "name": "back",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon Back/server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.2",
+        "cloudinary": "^1.41.2",
+        "concurrently": "^8.2.2",
+        "connect-mongodb-session": "^5.0.0",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "express-fileupload": "^1.4.3",
+        "express-session": "^1.18.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.0.4",
+        "mongoose-auto-increment": "^5.0.1",
+        "multer": "^1.4.5-lts.1",
+        "nodemailer": "^6.9.8",
+        "nodemon": "^3.0.2",
+        "uuid": "^9.0.1",
+        "validator": "^13.11.0"
+    },
+    "proxy": "http://192.168.0.106:4001"
+}
